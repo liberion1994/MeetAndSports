@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">一起运动</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_court_list">球场列表</string>
+    <string name="title_court_detail">球场信息</string>
+    <string name="btn_book">预订</string>
+</resources>

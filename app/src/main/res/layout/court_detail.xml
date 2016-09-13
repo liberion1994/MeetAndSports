@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="space.liberion.meetandsports.booking.CourtDetailFragment">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+    </android.support.v4.view.ViewPager>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/one_day_play_pager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/one_day_play_pager_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v4.view.PagerTabStrip>
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@drawable/btn_light_blue"
+            android:layout_width="64dp"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:text="@string/btn_book"/>
+
+    </LinearLayout>
+
+</LinearLayout>
